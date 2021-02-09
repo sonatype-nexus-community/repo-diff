@@ -1,5 +1,5 @@
-# Nexus Repository Manager coordinate diff script
-This repository contains a script to check if you have artifacts containing the same name between your repositories. 
+# Nexus Repository Manager dependency collision checker
+This repository contains a script to check if you have artifacts containing the same name between your repositories. This can be used to check if you're affected by a [Dependecy Collision Attack](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations)
 
 For example 
 ````
