@@ -7,8 +7,8 @@ DEFAULT_HEADERS = {
     'User-Agent': 'iq-momo'}
 
 REPO_HOSTNAME= "http://localhost:8081"
-USER = 'LCpO0Lh8'
-TOKEN = 'aSVxh5KRrDJbZ04NGqRrEgQyzR1mNh_byFz-BWQhpS73'
+USER = 'username'
+TOKEN = 'password'
 
 REPOS = {
     # hosted: proxy
@@ -19,7 +19,7 @@ REPOS = {
 log = logging.getLogger('repo-diff')
 
 def main():
-    logging.basicConfig(filename='/Users/maurycupitt/sonatype/repo-diff/repo-diff.log', level=logging.INFO)
+    logging.basicConfig(filename='repo-diff.log', level=logging.INFO)
     for hosted, proxy in REPOS.items():
         print("-------------------")
         print("Hosted: {0} | Proxy: {1}".format(hosted, proxy))
