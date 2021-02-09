@@ -15,7 +15,7 @@ This would be a match.
 
 ## Instructions
 
-### 0 - Customise values
+### Step 1: Customise values in repo-diff.py
 You'll need to modify the script to include 
 1. Auth creds or tokens from your NXRM3.
 1. URL to your Nexus
@@ -28,12 +28,13 @@ REPOS = {
     "npm-hosted": "npm-group-proxy"
 }
 ```
+You'll find examples of all in the script.
 
-### 1 - Create new virtual environment
+### Step 2: Create new virtual environment
 ```python
 python3 -m venv my-venv
 ```
-### 2 - Activate your virtual environment
+### Step 3: Activate your virtual environment
 Do this in your terminal or by using your favorite IDE
 #### Windows
 ```
@@ -45,12 +46,12 @@ my-venv\Scripts\activate.bat
 source my-venv/bin/activate
 ```
 
-### 3 - Install dependencies
+### Step 4: Install dependencies
 ```python
 pip install -r requirements.txt
 ```
 
-### 4 - Run script
+### Step 5: Run script
 To run the script simply type - results will be printed out to stout and can be piped to a file for later use.
 ```python
  python3 repo-diff.py
