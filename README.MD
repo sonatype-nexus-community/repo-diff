@@ -10,8 +10,8 @@ npm-proxy has a package called @mycompany/artifact2@10.0.1
 This would be a match.
 
 ## Requirements
-Python3
-NXRM3 OSS or PRO
+* Python3
+* NXRM3 OSS or PRO
 
 ## Instructions
 
