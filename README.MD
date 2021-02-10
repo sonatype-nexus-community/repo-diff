@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 5: Run script
-To run the script simply type - results will be printed out to stout and can be piped to a file for later use.
+To run the script simply type - results will be printed out to stdout and can be piped to a file for later use.
 ```python
  python3 repo-diff.py
  ````
