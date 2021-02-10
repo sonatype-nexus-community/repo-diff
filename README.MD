@@ -4,7 +4,7 @@ This repository contains a script to check if you have artifacts containing the 
 For example 
 ````
 npm-hosted has packages published with the @mycompany/artifact@2.0.1
-npm-proxy has a package called @mycompany/artifact2@10.0.1
+npm-proxy has a package called @mycompany/artifact@10.0.1
 ````
 
 This would be a match.
