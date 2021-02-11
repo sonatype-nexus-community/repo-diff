@@ -1,10 +1,10 @@
-# Nexus Repository Manager coordinate diff script
-This repository contains a script to check if you have artifacts containing the same name between your repositories. 
+# Nexus Repository Manager dependency/namespace confusion checker
+This repository contains a script to check if you have artifacts containing the same name between your repositories. This can be used to check if you're affected by a [Dependecy Confusion Attack](https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations)
 
 For example 
 ````
 npm-hosted has packages published with the @mycompany/artifact@2.0.1
-npm-proxy has a package called @mycompany/artifact2@10.0.1
+npm-proxy has a package called @mycompany/artifact@10.0.1
 ````
 
 This would be a match.
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 5: Run script
-To run the script simply type - results will be printed out to stout and can be piped to a file for later use.
+To run the script simply type - results will be printed out to stdout and can be piped to a file for later use.
 ```python
  python3 repo-diff.py
  ````
