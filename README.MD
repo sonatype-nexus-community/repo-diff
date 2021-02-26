@@ -16,7 +16,7 @@ This would be a match.
 
 ## Instructions
 
-### Step 1: Customise values in repo-diff.py (NXRM3) or repo-deff-nxrm2.py (NXRM2)
+### Step 1: Customise values in repo-diff.py (NXRM3) or repo-diff-nxrm2.py (NXRM2)
 You'll need to modify the script to include 
 1. Auth creds or tokens from your NXRM. (`USER` and `TOKEN`)
 1. URL to your Nexus (`REPO_HOSTNAME`)
