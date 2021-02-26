@@ -12,7 +12,7 @@ This would be a match.
 ## Requirements
 * Python3
 * NXRM3 OSS or PRO
-* NXRM2 OSS ot PRO
+* NXRM2 OSS or PRO
 
 ## Instructions
 
