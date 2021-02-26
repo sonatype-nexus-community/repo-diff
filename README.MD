@@ -12,14 +12,15 @@ This would be a match.
 ## Requirements
 * Python3
 * NXRM3 OSS or PRO
+* NXRM2 OSS ot PRO
 
 ## Instructions
 
-### Step 1: Customise values in repo-diff.py
+### Step 1: Customise values in repo-diff.py (NXRM3) or repo-diff-nxrm2.py (NXRM2)
 You'll need to modify the script to include 
-1. Auth creds or tokens from your NXRM3.
-1. URL to your Nexus
-1. Repositories to compare in REPOS. e.g. to compare ruby and npm hosted to their proxies
+1. Auth creds or tokens from your NXRM. (`USER` and `TOKEN`)
+1. URL to your Nexus (`REPO_HOSTNAME`)
+1. Repositories to compare in `REPOS`. e.g. to compare ruby and npm hosted to their proxies
 
 ```python
 REPOS = {
