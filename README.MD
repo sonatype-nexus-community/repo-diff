@@ -12,7 +12,15 @@ This would be a match.
 ## Requirements
 * Python3
 * NXRM3 OSS or PRO
+
+‼ - Large registries with NX3 might cause an orient error. 
+If you run into this contact your Sonatype CS for help
+
 * NXRM2 OSS or PRO
+
+‼ - DO NOT RUN THIS IF YOU ARE USING SLOW STORAGE SUCH AS NFS TO BACK NEXUS. 
+It may cause your NX2 to slow down and become unresponsive. We recommend upgrading to nx3 as a primary first step.
+
 
 ## Instructions
 
