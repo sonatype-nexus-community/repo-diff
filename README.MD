@@ -13,6 +13,8 @@ This would be a match.
 * Python3
 * NXRM3 OSS or PRO
 
+‼ - Nexus Firewall with NXRM3 now has a feature for Dependency confusion protection. See help.sonatype.com for more information or contact Sonatype.
+
 ‼ - Large registries with NX3 might cause an orient error. 
 If you run into this contact your Sonatype CS for help
 
